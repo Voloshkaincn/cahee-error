@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container__main">
+            <header class="main__header">
+                <h2 class="header__logo">
+                    cahee
+                </h2>
+                <nav class="topnav" id="myTopnav">
+                    <a class="menu_links" href="#">home</a>
+                    <a class="menu_links" href="#about">about</a>
+                    <a class="menu_links" href="#services">services</a>
+                    <a class="menu_links" href="#gallery">gallery</a>
+                    <a class="menu_links" href="#blog">blog</a>
+                    <a class="menu_links" href="#contact">contact</a>
+                    <a href="javascript:void(0);" class="icon" onclick="toggeMenu()">
+                        <div class="hamburger" id="hamburger-1">
+                            <span class="line"></span>
+                            <span class="line"></span>
+                            <span class="line"></span>
+                        </div>
+                    </a>
+                </nav>
+            </header>
+            <div id="main-menu">
+                <a class="menu_links" href="#about">about</a>
+                <a class="menu_links" href="#services">services</a>
+                <a class="menu_links" href="#gallery">gallery</a>
+                <a class="menu_links" href="#blog">blog</a>
+                <a class="menu_links" href="#contact">contact</a>
+            </div>
+            <div class="box__main">
+                <h1 class="box__main_title">
+                    fresh life
+                </h1>
+                <p class="box__main_description">
+                    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud
+                    exercitation ullamco.
+                </p>
+                <button class="btn box__main_btn">
+                    <a class="btn__link" href="#">get free now</a>
+                </button>
+            </div>
+            <div class="main__scroll">
+                <img class="scroll_img" src="images/scroll.png" alt="scroll">
+            </div>
+        </div>
+        <div class="container__about" id="about">
+            <div class="col-6 about__image">
+                <img class="about__image_img" src="images/strawberry.png" alt="strawberry">
+            </div>
+            <div class="col-6 about__description">
+                <h3 class="h3_title h3__about_title">
+                    about us
+                </h3>
+                <p class="page_text text_about">
+                    Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum.
+                </p>
+                <p class="page_text text_about">
+                    Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+                </p>
+            </div>
+        </div>
+        <div class="container__services" id="services">
+            <div class="services__list_col col-6">
+                <div class="row services__row">
+                    <div class="services__col col-8">
+                        online shopping
+                    </div>
+                    <div class="services__col col-4 col__icon">
+                        <svg class="svg__icon basket__icon">
+                            <use xlink:href="images/sprite.svg#basket_icon"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="row services__row">
+                    <div class="services__col col-8">
+                        quality product
+                    </div>
+                    <div class="services__col col-4 col__icon">
+                        <svg class="svg__icon basket__icon">
+                            <use xlink:href="images/sprite.svg#qualprod_icon"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="row services__row">
+                    <div class="services__col col-8">
+                        domestic & international delivery
+                    </div>
+                    <div class="services__col col-4 col__icon">
+                        <svg class="svg__icon basket__icon">
+                            <use xlink:href="images/sprite.svg#planet_icon"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="row services__row">
+                    <div class="services__col col-8">
+                        well organized
+                    </div>
+                    <div class="services__col col-4 col__icon">
+                        <svg class="svg__icon basket__icon">
+                            <use xlink:href="images/sprite.svg#carrot_icon"></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="services__head_col col-6">
+                <h3 class="h3_title h3__services_title">
+                    our services
+                </h3>
+            </div>
+        </div>
+        <div class="container__gallery" id="gallery">
+            <h3 class="h3_title">
+                gallery
+            </h3>
+            <p class="page_text text_gallery">
+                Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                ad
+                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <div class="gallery__photo_box">
+                <div class="row row_item">
+                    <div class="col-8 gallery__item">
+                        <div class="img" style="background-image: url(images/photo001.png);"></div>
+                        <!-- <img src="images/photo001.png" alt="photo"> -->
+                    </div>
+                    <div class="col-4 gallery__item">
+                        <div class="img" style="background-image: url('images/photo002.png');"></div>
+                        <!-- <img src="images/photo002.png" alt="photo"> -->
+                        <div class="img" style="background-image: url('images/photo003.png');"></div>
+                        <!-- <img src="images/photo003.png" alt="photo"> -->
+                    </div>
+                </div>
+                <div class="row row_item">
+                    <div class="col-6 gallery__item">
+                        <div class="img" style="background-image: url('images/photo004.png');"></div>
+                        <!-- <img src="images/photo004.png" alt="photo"> -->
+                    </div>
+                    <div class="col-6 gallery__item">
+                        <div class="img" style="background-image: url('images/photo005.png');"></div>
+                        <!-- <img src="images/photo005.png" alt="photo"> -->
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="confirm">
+                <button class="btn gallery_btn">
+                    view more
+                </button>
+            </div>
+        </div>
+        <div class="container__blog" id="blog">
+            <h3 class="h3_title">
+                blog
+            </h3>
+            <p class="title_title">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+            </p>
+            <div class="section">
+                <div class="col blog__section_one">
+                    <div class="blog__date">
+                        <p class="date_text blog__day">20</p>
+                        <p class="date_text blog__month">nov</p>
+                    </div>
+                    <h6 class="h6">Green Smoothies: Too Much of a Good Thing?</h6>
+                    <p class="author">
+                        By Auskteez - 2 hours ago
+                    </p>
+                </div>
+                <div class="col blog__section_two">
+                    <div class="blog__date">
+                        <p class="date_text blog__day">14</p>
+                        <p class="date_text blog__month">nov</p>
+                    </div>
+                    <h6 class="h6">Growing Food and a “Thirst” for Innovation</h6>
+                    <p class="author">
+                        By Auskteez - 3 hour
+                    </p>
+                </div>
+                <div class="col blog__section_three">
+                    <div class="blog__date">
+                        <p class="date_text blog__day">10</p>
+                        <p class="date_text blog__month">nov</p>
+                    </div>
+                    <h6 class="h6">Pesticides & Food: What You Need to Know</h6>
+                    <p class="author">
+                        By Auskteez - 6 hours
+                    </p>
+                </div>
+            </div>
+            <div class="confirm">
+                <button class="btn" type="submit">
+                    <a class="btn__link" href="#">view more</a>
+                </button>
+            </div>
+        </div>
+        <div class="container__contact" id="contact">
+            <div>
+                <h3 class="h3_title">contact</h3>
+                <p class="subtitle">For new projects, ideas, business or anything
+                    you'd like to discuss, contact with me!</p>
+            </div>
+            <div class="buttom__section">
+                <form class="registration__section" action="#" method="GET">
+                    <input class="input__area" type="text" name="name" id="name" required placeholder="Your name">
+                    <input class="input__area" type="email" name="email" id="email" required
+                        placeholder="Your email...">
+                    <input class="input__area" type="tel" name="phone_numb" id="phone_numb" required
+                        placeholder="Your phone number...">
+                    <textarea class="input__area textarea" name="area" id="area" cols="30" rows="10" required
+                        placeholder="Your messagge..."></textarea>
+                </form>
+                <div class="contact__contact_list">
+                    <div class="contact__item">
+                        <p class="title">
+                            address
+                        </p>
+                        <p class="description">
+                            123 City name, street, City, Country
+                        </p>
+                    </div>
+                    <div class="contact__item contact__email">
+                        <p class="title">
+                            email
+                        </p>
+                        <p class="description">
+                            cahee@domain.com
+                        </p>
+                    </div>
+                    <div class="contact__item contact__phone">
+                        <p class="title">
+                            phone
+                        </p>
+                        <p class="description">
+                            +012 345 6789
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container__footer">
+            <div class="footer__copyright">
+                © 2015 Company. All right reserved.
+            </div>
+            <div class="footer__brand">
+                cahee
+            </div>
+            <div class="footer__subscription">
+                Made with <span>love</span> by Auskteez
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+<script>
+    function toggeMenu() {
+        let menu = document.getElementById("main-menu");
+        menu.classList.toggle("menu-active");
+
+        let button = document.getElementById("hamburger-1");
+        button.classList.toggle("is-active");
+    }</script>
+
+</html>
